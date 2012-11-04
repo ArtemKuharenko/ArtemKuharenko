@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta charset="utf-8">
+    <title>homework_2</title>
+</head>
+<body>
+
+<form action="C:\Homework1\1.txt" method="post">
+    <fieldset>
+        <legend><strong>Коротко о себе</strong> </legend>
+        <lable>Имя: </lable><input type="text">
+        <p> <lable>Фамилия: </lable> <input type="text"> </p>
+        <p>Ваш пол:
+        <input type="radio" name="sex" value="мужской"/> Мужской
+        <input type="radio" name="sex" value="женский"/> Женский
+        </p>
+        <p><lable>Ваш возраст: </lable><input name="возраст" type="text" size="5"><lable> лет</lable></p>
+
+    </fieldset>
+    <fieldset>
+        <legend><strong>Подробнее о себе</strong> </legend>
+        <input type="radio" name="sex2" value="YoungMan"/>Молодой человек<Br>
+        <input type="radio" name="sex2" value="Woman"/>Девушка<Br>
+        <input type="text" name="Дата рождения" value=""/> Дата рождения <br>
+        <input type="text" name="Семейное положение" value=""/> Семейное положение <br>
+        <input type="text" name="Социальный статус" value=""/> Социальный статус <br>
+        <input type="text" name="адресс" value=""/> Место жительства <br>
+        <p><strong>Что вы обычно делаете на выходных:</strong><Br>
+            <input type="checkbox" name="Сон" value="Sleep"/> Сплю<Br>
+            <input type="checkbox" name="Друзья" value="Friends"/> Гуляю с друзьями<Br>
+            <input type="checkbox" name="Рыбалка" value="Fishing"/> Хожу на рыбалку<Br>
+            <input type="checkbox" name="Игры" value="Games"/> Играю в игры<Br>
+        </p>
+        <p>Какой у вас опыт работы с HTML?</p>
+        <select>
+            <option>гдето полтора года</option>
+            <option>хотя может и меньше</option>
+            <option>я забыл вопросс</option>
+        </select>
+        <p>Сколько вы знаете книг по HTML?</p>
+        <input type="radio" name="Books" value="0-1"/>0-1<Br>
+        <input type="radio" name="Books" value="2-5"/>2-5<Br>
+        <input type="radio" name="Books" value="5-20"/>5-20<Br>
+        <input type="radio" name="Books" value="more"/>больше...<Br>
+        <p><strong>Ваши коментарии:</strong></p>
+        <textarea rows="10" cols="50"></textarea><br>
+        <p>
+        <select size="3">
+            <option>Первый вариант</option>
+            <option>Второй вариант</option>
+            <option>Третий вариант</option>
+            <option>Четвертый вариант</option>
+        </select>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend><strong>И ещё несколько деталей...</strong></legend>
+        <input type="text" size="30" placeholder="Это поле было введено до вас" readonly/>
+        <p><strong>Email:</strong><br>
+        <input type="text" name="email" value=""/><br>
+        </p>
+            <strong>Хотите подписатся на спам?</strong>
+        <br>
+        <i>Выберите категорию</i><br>
+        <input type="checkbox" name="Кухня" value="kitchen"/> Приготовить самый вкусный обед в мире за 15 минут<Br>
+        <input type="checkbox" name="Деньги" value="money"/> Как зарабатывать по 1000$ в час<Br>
+        <input type="checkbox" name="Здоровье" value="health"/> Сбросить 150 кг. всего за 2 дня<Br>
+        <p>Сложная была домашка?</p>
+        <input type="radio" name="difficult" value="сложность_1"/>Да нет<Br>
+        <input type="radio" name="difficult" value="сложность_2"/>Ну так себе<Br>
+        <input type="radio" name="difficult" value="сложность_3"/>Пришлось подумать<Br>
+        <input type="radio" name="difficult" value="сложность_4"/>Еле сделал<Br>
+    </fieldset>
+    <p><input type="submit" value="Отправить"/> <input type="reset" value="Сбросить"/></p>
+</form>
+</body>
+</html>
